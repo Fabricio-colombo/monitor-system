@@ -178,6 +178,8 @@ while ($true) {
             Write-Host "  $($_.ProcessName) (PID $($_.Id)) - RAM: $($_.MemMB) MB"
         }
         Write-Host "---------------------------------------------------------"
+        Write-Host "Created by: Fabricio Colombo" -ForegroundColor DarkGray
+
     }
     Write-Host "Refreshing now..." -ForegroundColor Yellow
 
